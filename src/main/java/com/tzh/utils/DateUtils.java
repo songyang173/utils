@@ -13,8 +13,8 @@ public class DateUtils {
 		Calendar now = formateDateToCalendar(new Date());
 		int j = now.get(Calendar.YEAR);
 		//生日年份
-		int i = birth.get(Calendar.YEAR);
-		return j - i;
+		int w = birth.get(Calendar.YEAR);
+		return j - w;
 	}
 	
 	public static int getAge(Date birth) {
